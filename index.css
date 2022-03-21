@@ -1,0 +1,500 @@
+body {
+  background-color: #012f84;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Karla", sans-serif;
+}
+
+.green {
+  background-color: #3ddc84;
+}
+.txtCenter {
+  text-align: center;
+}
+
+.mainTitle {
+  color: white;
+  font-weight: 700;
+  font-size: 80px;
+  z-index: 0;
+}
+
+.daText {
+  color: #f7546c;
+  font-size: 15px;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+}
+
+.jstCard {
+  text-align: justify;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 21px;
+  z-index: 1;
+}
+
+.mt250 {
+  margin-top: 250px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.divider {
+  z-index: -3;
+}
+
+.whiteDiv {
+  background-color: white;
+}
+
+.violetDiv {
+  background-color: #f7546c;
+}
+.blackDiv {
+  background-color: #222222;
+}
+
+.btnContact {
+  margin-top: 50px;
+  background-color: white;
+  color: #012f84;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.btnContact:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+#AddNewMeetingButton {
+  position: absolute;
+  margin-top: -300px;
+  text-align: right;
+  background-image: url(./src/circle.png);
+  background-repeat: no-repeat;
+  background-size: 615px;
+  background-position: right -310px top;
+  height: 900px;
+  width: 100%;
+  outline: none;
+  border: none;
+  z-index: -1;
+}
+
+#aiBackground {
+  position: absolute;
+  margin-top: -145px;
+  text-align: right;
+  background-image: url(./src/ai_rotbot.png);
+  background-repeat: no-repeat;
+  background-size: 479px;
+  background-position: center;
+  height: 547px;
+  width: 474px;
+  outline: none;
+  border: none;
+  z-index: -1;
+}
+
+.nav-item {
+  background-color: #204c9e;
+  font-weight: 800;
+  border-radius: 30px;
+  margin: 3px 15px 0 0;
+  padding: 1px 20px;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-item:hover {
+  background-color: #f7546c !important;
+  transition: background-color 0.2s linear;
+}
+
+.cardServizi {
+  background-color: #f9fbff;
+  border-radius: 30px;
+  padding: 32px;
+  margin: 10px 10px;
+}
+
+.cardServizi2 {
+  background-color: #f9fbff;
+  border-radius: 30px;
+  padding: 32px;
+  margin: 10px 0px;
+}
+
+.cardServiziTitle {
+  color: #353535;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.secTitle {
+  color: #353535;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.secTitlew {
+  color: #fff;
+  font-weight: 800;
+  font-size: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.secTitlewSm {
+  color: #fff;
+  font-weight: 800;
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.cardImg {
+  max-height: 80px;
+  margin-bottom: 30px;
+}
+
+.cardTxt {
+  font-size: 20px;
+  color: #8f8f99;
+}
+
+.btnApprofondisci {
+  margin-top: 50px;
+  background-color: transparent;
+  color: #005fff;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.btnApprofondisci:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+#id100 {
+  background-size: 100% 100% !important;
+}
+
+.cardServiziDark {
+  background-color: #012f84;
+  border-radius: 30px;
+  padding: 32px;
+  margin: 10px 10px;
+  max-width: 500px;
+}
+
+.cardServiziDark:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s ease-in-out;
+}
+
+.cardServiziGreen {
+  background-color: #3ddc84;
+  border-radius: 30px;
+  padding: 32px;
+  margin: 10px 10px;
+  max-width: 500px;
+}
+
+.cardServiziGreen:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s ease-in-out;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.cardServiziTitleW {
+  color: #fff;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.cardTxtW {
+  font-size: 20px;
+  color: #fff;
+}
+
+.cardServiziTitleDark {
+  color: #e7e7e7;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.cardTxtDark {
+  font-size: 20px;
+  color: #dfdfdf;
+}
+
+.btnApprofondisciYellow {
+  margin-top: 50px;
+  background-color: transparent;
+  color: #fbff00 !important;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.btnApprofondisciYellow:hover {
+  transform: scale(1.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  #AddNewMeetingButton {
+    position: absolute;
+    margin-top: -466px;
+    text-align: right;
+    background-image: url(./src/circle.png);
+    background-repeat: no-repeat;
+    background-size: 615px;
+    background-position: right -404px top;
+    height: 900px;
+    width: 100%;
+    outline: none;
+    border: none;
+    z-index: -1;
+  }
+
+  #aiBackground {
+    position: absolute;
+    margin-top: -145px;
+    text-align: right;
+    background-image: url(./src/ai_rotbot.png);
+    background-repeat: no-repeat;
+    background-size: 290px;
+    background-position: center;
+    height: 459px;
+    width: 362px;
+    outline: none;
+    border: none;
+    z-index: -1;
+  }
+
+  .mainTitle {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    z-index: 0;
+  }
+
+  .mt250 {
+    margin-top: 90px;
+  }
+}
+
+.yellowDecoration {
+  background-color: #f8e5b7;
+}
+
+.cardChiara {
+  /* box-sizing: border-box; */
+  margin: 0px;
+  min-width: 0px;
+  background-color: var(--theme-ui-colors-contentBg, #fff);
+  border-radius: 1rem;
+  transition: transform 250ms ease 0s, box-shadow 250ms ease 0s,
+    color 250ms ease 0s;
+  box-shadow: rgba(140, 152, 164, 0.125) 0px 0px 35px;
+  padding: 2rem;
+}
+
+.singleCardL {
+  border-left: 1px solid #dbe1e9;
+  padding: 2rem;
+}
+
+.singleCardB {
+  border-bottom: 1px solid #dbe1e9;
+  padding: 2rem;
+}
+.singleCard {
+  padding: 2rem;
+}
+
+.androidIcon {
+  background-color: #ebfdda;
+  color: #64db43;
+  padding: 14px;
+  margin-right: 16px;
+  border-radius: 10px;
+  font-size: 33px;
+}
+
+.titleIcon {
+  color: #2d3748;
+  font-size: 1.55rem;
+  margin-bottom: 24px;
+  font-weight: 800;
+}
+
+.cloudIcon {
+  background-color: #d3e7fe;
+  color: #276bf0;
+  padding: 14px;
+  margin-right: 16px;
+  border-radius: 10px;
+  font-size: 33px;
+}
+
+.IoTIcon {
+  background-color: #fee8d1;
+  color: #f7491d;
+  padding: 14px;
+  margin-right: 16px;
+  border-radius: 10px;
+  font-size: 33px;
+}
+
+.SwIcon {
+  background-color: #fefad6;
+  color: #f4d133;
+  padding: 14px;
+  margin-right: 16px;
+  border-radius: 10px;
+  font-size: 33px;
+}
+
+.divider {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.textDescr {
+  color: #718096;
+  margin-left: 0.5px;
+}
+
+.ictick {
+  color: #276bf0;
+}
+
+.technologies__android {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/android.svg);
+}
+
+.technologies_aws {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/aws.svg);
+}
+.technologies_azure {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/azure.svg);
+}
+.technologies_bootstrap {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/bootstrap.svg);
+}
+.technologies_do {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/do.svg);
+}
+.technologies_gcloud {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/gcloud.svg);
+}
+.technologies_github {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/github.svg);
+}
+.technologies_gitlab {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/gitlab.svg);
+}
+.technologies_heroku {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/heroku.svg);
+}
+.technologies_html {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/html.svg);
+}
+.technologies_kotlin {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/kotlin.svg);
+}
+.technologies_node {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/nodejs.svg);
+}
+.technologies_psql {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/postgres.svg);
+}
+.technologies_react {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/react.svg);
+}
+.technologies_vs {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/visualstudio.svg);
+}
+.technologies_idea {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/idea.svg);
+}
+.technologies_docker {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/docker.svg);
+}
+.technologies_k8s {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/k8s.svg);
+}
+.technologies_mongo {
+  padding-left: calc(24px + 10px);
+  background-image: url(./src/mongo.svg);
+}
+
+.techSpan {
+  font-size: 16px;
+  color: #202020;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-transform: uppercase;
+  margin-right: 30px;
+  margin-bottom: 32px;
+}
+
+.grayDiv {
+  background-color: #005fff;
+}
